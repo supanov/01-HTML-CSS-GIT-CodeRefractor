@@ -8,10 +8,10 @@
 </head>
 
  <!--------- In line 11, I've removed the 'div class="header" into its own header tag', as well as move the header before the body tag--------->
-
+<!------I have replaced div with a proper nav tag for the navigation--------->
 <header>
     <h1>Hori<span class="seo">seo</span>n</h1>
-    <div>
+    <nav>
         <ul>
             <li>
                 <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -23,7 +23,7 @@
                 <a href="#social-media-marketing">Social Media Marketing</a>
             </li>
         </ul>
-    </div>
+    </nav>
  </header>
 
 <!-----------Added alt to the images and included descriptions for them--------->
@@ -31,17 +31,17 @@
 <!----Changed this imag tag into a figure tag-------->
     <figure class="hero"> </figure>
 
-<!---Removed the div to create a main tag and switched the divs into sections. Removed the ids and kept the classes--------->
+<!---Removed the div to create a main tag and switched the divs into sections--------->
     <main class="content"> 
         <section class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Brainstorming ideas on a notebook" class="float-left" />
+            <img id="search-engine-optimization" src="./assets/images/search-engine-optimization.jpg" alt="Brainstorming ideas on a notebook" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
 
-        <section class="online-reputation-management">
+        <section id="online-reputation-management" class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" alt="Graphs on raising reputation on a laptop" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -49,7 +49,7 @@
             </p>
         </section>
 
-        <section class="social-media-marketing">
+        <section id="social-media-marketing" class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" alt="Colaborating on social media with likes and tweets" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -59,7 +59,7 @@
 
     </main>
 
-    <!-----Included a aside tag bar which is content outside froom the page content-->
+    <!-----Included a aside tag bar which is content outside from the page content------>
 
     <aside class="benefits">
 
