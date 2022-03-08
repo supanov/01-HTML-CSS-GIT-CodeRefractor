@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-
+/* I changed the .header class into its own tag, so I removed the period */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,6 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* I renamed the div into nav adjusting the ul and ul il */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -87,7 +88,9 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-brand {
+/* Removed unecessary code by cosolidating the img and h3 (benefit-lead,brand,cost)  */
+
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -105,7 +108,7 @@ p {
     max-width: 150px;
 }
 
-
+/* Removed unecessary code by consolidating the img and h2  */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -126,7 +129,7 @@ p {
     font-size: 36px;
 }
 
-
+/* created a footer tag instead of a class div */
 footer {
     padding: 30px;
     clear: both;
